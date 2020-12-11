@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "data.source.postgres.host.general",
+      "type": "java.lang.String",
+      "description": "Основной хост базы данных"
+    },
+    {
+      "name": "data.source.postgres.host.reserve",
+      "type": "java.lang.String",
+      "description": "Резервный хост базы данных"
+    },
+    {
+      "name": "data.source.postgres.user",
+      "type": "java.lang.String",
+      "description": "Пользователь БД"
+    },
+    {
+      "name": "data.source.postgres.password",
+      "type": "java.lang.String",
+      "description": "Пароль БД"
+    },
+    {
+      "name": "pdf.worker.ip",
+      "type": "java.lang.String",
+      "description": "IP адрес pdw-worker"
+    },
+    {
+      "name": "pdf.worker.token",
+      "type": "java.lang.String",
+      "description": "Токен для работы с АПИ-ФНС"
+    },
+    {
+      "name": "pdf.worker.port",
+      "type": "java.lang.String",
+      "description": "Порт pdf-worker"
+    },
+    {
+      "name": "pdf.worker.connector.port",
+      "type": "java.lang.String",
+      "description": "Порт специального модуля для работы с pdf-worker"
+    }
+  ]
+}
